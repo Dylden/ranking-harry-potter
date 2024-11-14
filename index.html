@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking HP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div><img src="img/Hogwarts-Logo.png" alt="Logo de Poudlard"></div>
+        <h1>La coupe des maisons</h1>
+        <div><img src="img/Hogwarts-Logo.png" alt="Logo de Poudlard"></div>
+    </header>
+    <main>
+
+        <div class="container">
+
+            <!-- Form -->
+            <form action="">
+
+                <div class="maisonsList">
+                    <div class="logo"><img src="img/Blason_des_Gryffondor.webp" alt="Gryffondor"></div>
+                    <input type="number" id="inputGryffondor">
+                    <div class="logoPlus" id="addGryffondor"><img src="img/plusGryf.png" alt=""></div>
+                </div>
+
+                <div class="maisonsList">
+                    <div class="logo"><img src="img/Blason_des_Serpentard.webp" alt=""></div>
+                    <input type="number" id="inputSerpentard">
+                    <div class="logoPlus" id="addSerpentard"><img src="img/plusSerp.png" alt=""></div>
+                </div>
+
+                <div class="maisonsList">
+                    <div class="logo"><img src="img/Blason_des_Poufsouffle.webp" alt=""></div>
+                    <input type="number" id="inputPoufsouffle">
+                    <div class="logoPlus" id="addPoufsouffle"><img src="img/plusPouf.png" alt=""></div>
+                </div>
+
+                <div class="maisonsList">
+                    <div class="logo"><img src="img/Blason_des_Serdaigle.webp" alt=""></div>
+                    <input type="number" id="inputSerdaigle">
+                    <div class="logoPlus" id="addSerdaigle"><img src="img/plusSerr.png" alt=""></div>
+                </div>
+            </form>
+
+            <!-- Classement -->
+
+            <section id="classement">
+                <h2>Classement</h2>
+                <ul id="houseList">
+                    <!-- 1 -->
+                    <li>
+                        <div class="logo"><img src="img/Blason_des_Gryffondor.webp" alt="Gryffondor"></div>
+                        <p id="scoreGryffondor">0</p>
+                    </li>
+                    <!-- 2 -->
+                    <li>
+                        <div class="logo"><img src="img/Blason_des_Serpentard.webp" alt=""></div>
+                        <p id="scoreSerpentard">0</p>
+                    </li>
+                    <!-- 3 -->
+                    <li>
+                        <div class="logo"><img src="img/Blason_des_Poufsouffle.webp" alt=""></div>
+                        <p id="scorePoufsouffle">0</p>
+                    </li>
+                    <!-- 4 -->
+                    <li>
+                        <div class="logo"><img src="img/Blason_des_Serdaigle.webp" alt=""></div>
+                        <p id="scoreSerdaigle">0</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+
+    </main>
+</body>
+
+<script src="js/index.js"></script>
+
+</html>

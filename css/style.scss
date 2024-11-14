@@ -1,0 +1,119 @@
+@font-face {
+    font-family: HARRYP__;
+    src: url('../font/HARRYP__.TTF');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: grey;
+    font-family: HARRYP__, sans-serif;
+    overflow: hidden;
+}
+
+// HEADER
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+    h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    div {
+        width: 10%;
+        transition: 0.5s;
+    }
+    div:hover{
+        transform: rotateZ(50deg);
+        transition: 0.5s;
+    }
+}
+
+// MAIN
+
+main {
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    form {
+        width: 45%;
+
+        .maisonsList {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .logo {
+                width: 15%;
+                transform: translate(15px, 0px);
+            }
+
+            .logoPlus {
+                width: 15%;
+                transition: 0.5s;
+            }
+            .logoPlus:hover{
+                width: 17%;
+                transform: rotate(180deg);
+                transition: 1s;
+            }
+
+            input {
+                width: 60%;
+                border: none;
+                border-bottom: 1px solid white;
+                background-color: gray;
+                outline: none;
+                font-size: 40px;
+                font-family: HARRYP__, sans-serif;
+            }
+
+        }
+    }
+
+    // CLASSEMENT
+
+    #classement {
+        width: 50%;
+        text-align: center;
+
+        h2 {
+            font-size: 50px;
+            color: white;
+        }
+
+        #houseList {
+            li { //SCORE
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+                font-size: 40px;
+                gap: 10px;
+                position: relative;
+                transition: all 1s, top 1s;
+
+                .logo {
+                    width: 10%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

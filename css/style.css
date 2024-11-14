@@ -1,0 +1,96 @@
+@font-face {
+  font-family: HARRYP__;
+  src: url("../font/HARRYP__.TTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: grey;
+  font-family: HARRYP__, sans-serif;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+header h1 {
+  font-size: 50px;
+  color: white;
+}
+header div {
+  width: 10%;
+  transition: 0.5s;
+}
+header div:hover {
+  transform: rotateZ(50deg);
+  transition: 0.5s;
+}
+
+main .container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main form {
+  width: 45%;
+}
+main form .maisonsList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main form .maisonsList .logo {
+  width: 15%;
+  transform: translate(15px, 0px);
+}
+main form .maisonsList .logoPlus {
+  width: 15%;
+  transition: 0.5s;
+}
+main form .maisonsList .logoPlus:hover {
+  width: 17%;
+  transform: rotate(180deg);
+  transition: 1s;
+}
+main form .maisonsList input {
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: gray;
+  outline: none;
+  font-size: 40px;
+  font-family: HARRYP__, sans-serif;
+}
+main #classement {
+  width: 50%;
+  text-align: center;
+}
+main #classement h2 {
+  font-size: 50px;
+  color: white;
+}
+main #classement #houseList li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-size: 40px;
+  gap: 10px;
+  position: relative;
+  transition: all 1s, top 1s;
+}
+main #classement #houseList li .logo {
+  width: 10%;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
