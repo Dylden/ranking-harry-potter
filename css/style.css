@@ -57,12 +57,12 @@ main form .maisonsList .logo {
 }
 main form .maisonsList .logoPlus {
   width: 15%;
-  transition: 0.5s;
+  transition: 1s;
 }
 main form .maisonsList .logoPlus:hover {
   width: 17%;
-  transform: rotate(180deg);
-  transition: 1s;
+  transform: rotate(360deg);
+  transition: 5s;
 }
 main form .maisonsList input {
   width: 60%;
@@ -81,6 +81,10 @@ main #classement h2 {
   font-size: 50px;
   color: white;
 }
+main #classement #houseList {
+  display: flex;
+  flex-direction: column;
+}
 main #classement #houseList li {
   display: flex;
   align-items: center;
@@ -88,7 +92,6 @@ main #classement #houseList li {
   font-size: 40px;
   gap: 10px;
   position: relative;
-  transition: all 1s, top 1s;
 }
 main #classement #houseList li .logo {
   width: 10%;

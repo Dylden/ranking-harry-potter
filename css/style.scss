@@ -67,12 +67,12 @@ main {
 
             .logoPlus {
                 width: 15%;
-                transition: 0.5s;
+                transition: 1s;
             }
             .logoPlus:hover{
                 width: 17%;
-                transform: rotate(180deg);
-                transition: 1s;
+                transform: rotate(360deg);
+                transition: 5s;
             }
 
             input {
@@ -100,6 +100,9 @@ main {
         }
 
         #houseList {
+            display: flex;
+            flex-direction: column;
+
             li { //SCORE
                 display: flex;
                 align-items: center;
@@ -107,7 +110,6 @@ main {
                 font-size: 40px;
                 gap: 10px;
                 position: relative;
-                transition: all 1s, top 1s;
 
                 .logo {
                     width: 10%;
